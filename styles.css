@@ -1,0 +1,96 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background-image: url("images/headerbg.jpg");
+    background-size: cover; /* Cover the entire header */
+    background-position: center;
+}
+
+h1.jntuh,
+h2,
+h3,
+h5,
+h1:last-child {
+    margin: 10px 0; /* Reduce the vertical margin */
+}
+.thick-blue-line {
+    border-top: 25px solid rgb(31, 86, 125);; /* Thick blue line */
+    margin: 0;
+    width: 100%;
+}
+
+.red-line {
+    border-top: 5px solid rgba(223, 9, 9, 0.781); /* Thin red line */
+    margin: 0;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h1.jntuh {
+    
+    color: red; /* Make the first heading red */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+    padding-left: 150px;
+}
+
+h2 {
+    color: purple; /* Make the second heading purple */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+h3, h5 {
+    color: black; /* Make the third and fourth headings black */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+h1.oe {
+    color:black; /* Make the last heading black */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-item {
+    margin: 0 30px;
+    text-align: center; /* Align the button to the center */
+}
+
+.nav-img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
